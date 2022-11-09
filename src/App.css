@@ -1,0 +1,25 @@
+html, #root, .App {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.nav {
+    padding-left: 20px;
+
+}
+
+.nav ul {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    color: coral;
+}
+
+.nav a {
+    text-decoration: none;
+    font-style: italic;
+    font-size: medium;
+    color: crimson;
+
+}

@@ -1,0 +1,67 @@
+.modal-page, .modal-content {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.modal-h2 {
+    font-style: italic;
+    padding-top: 10px;
+    font-size: 2rem;
+    color: chocolate;
+}
+
+.modal-img {
+    height: 500px;
+    border: solid 2px crimson;
+    border-radius: 20px;
+}
+
+.modal-instruction {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.modal-h3 {
+    color: crimson;
+    font-size: 1.5rem;
+}
+
+.modal-h4 {
+    font-size: 1.2rem;
+}
+
+.modal-p {
+    font-style: italic;
+    color: chocolate;
+    font-size: 1.1rem;
+}
+
+.modal-ingr {
+    display: flex;
+    gap: 25px;
+}
+
+.modal-button {
+    width: 160px;
+    height: 50px;
+    border-radius: 60px;
+    font-size: 1.1rem;
+    border: 1px solid crimson;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: chocolate;
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+.modal-button:hover {
+    border: 2px solid rgb(250, 250, 250);
+    background-color: rgb(33, 224, 138);
+    color: rgb(9, 9, 9);
+}

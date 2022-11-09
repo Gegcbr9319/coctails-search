@@ -1,0 +1,73 @@
+body {
+    background: rgb(249, 241, 179);
+    height: 100%;
+}
+
+.search-filters {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.filters {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.filters select {
+    margin-top: 5px;
+    width: 160px;
+    height: 25px;
+    text-align: center;
+    background: rgb(249, 241, 179);
+    font-size: 16px;
+    font-style: italic;
+    color: red;
+    cursor: pointer;
+}
+
+.search-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button-search {
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: 10px;
+
+}
+
+.button-search button {
+    width: 120px;
+    height: 25px;
+    cursor: pointer;
+    transition: 0.3;
+    font-size: 16px;
+    font-style: italic;
+    color: red;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(249, 241, 179);
+}
+
+.button-search button:hover {
+    border: 2px solid rgb(255, 253, 253);
+    color: darkviolet;
+}
+
+.button-search button:disabled {
+    color: gray;
+    border: gray;
+}

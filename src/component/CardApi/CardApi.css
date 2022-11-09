@@ -1,0 +1,42 @@
+html:has(.modal-api) {
+    overflow: hidden;
+}
+
+.card-api {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 2px solid rgb(199, 109, 165);
+    background-color: rgb(237, 227, 148);
+    width: 180px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-api:hover {
+    background-color: rgb(236, 232, 207);
+}
+
+.card-api-img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.card-api-h2 {
+    color: darksalmon;
+    font-size: 28px;
+}
+
+.card-api-h3 {
+    font-style: italic;
+    color: rgb(252, 98, 90);
+}
+
+.card-api-h4 {
+    padding-bottom: 5px;
+}
