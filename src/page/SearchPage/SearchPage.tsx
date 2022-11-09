@@ -135,7 +135,7 @@ export function SearchPage() {
           return <CardApi {...data} key={data.idDrink} />;
         })}
       </div>
-      {cardState.length > 1 && (
+      {cardState.length !== 0 && (
         <div className="button-search">
           <button
             onClick={() => setcurrentPage((prevState) => prevState - 1)}
