@@ -23,3 +23,25 @@ html, #root, .App {
     color: crimson;
 
 }
+
+@media (max-width: 640px) {
+    .nav {
+        padding: 0 !important;
+        width: 100vw;
+
+    }
+
+    .nav ul {
+        position: relative;
+        left: 0;
+        width: 100vw - 30px;
+        color: coral;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav li {
+        width: 120px;
+    }
+}

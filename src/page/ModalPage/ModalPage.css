@@ -65,3 +65,25 @@
     background-color: rgb(33, 224, 138);
     color: rgb(9, 9, 9);
 }
+
+
+@media (max-width: 640px) {
+    .modal-img {
+        height: 300px;
+        border: solid 1px crimson;
+        border-radius: 12px;
+    }
+
+    .modal-h2 {
+        padding-top: 5px;
+    }
+
+    .modal-ingr {
+        gap: 10px;
+    }
+
+    .modal-instruction {
+
+        gap: 5px;
+    }
+}

@@ -47,7 +47,6 @@ export function SearchPage() {
       const page: IResponceData[] = filterData.slice(i, i + pagState);
       pages.push(page);
     }
-    console.log(pages);
     return pages[curentPage];
   }
 
@@ -123,7 +122,7 @@ export function SearchPage() {
                 setPagState(+e.target.value);
               }}
             >
-              <option value={25}>25</option>
+              {window.screen.width > 640 && <option value={25}>25</option>}
               <option value={10}>10</option>
               <option value={5}>5</option>
             </select>

@@ -71,3 +71,20 @@ body {
     color: gray;
     border: gray;
 }
+
+@media (max-width: 640px) {
+    .filters {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+
+    }
+
+    .button-search {
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+}

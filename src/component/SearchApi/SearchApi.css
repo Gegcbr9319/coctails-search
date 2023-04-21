@@ -52,3 +52,24 @@
     font-size: 24px;
     color: rgb(15, 71, 183);
 }
+
+@media (max-width: 640px) {
+    .form-api {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .search-api {
+        gap: 10px;
+    }
+
+    .search-api h3 {
+        font-size: 20px;
+
+    }
+
+    .empty-message {
+
+        font-size: 20px;
+    }
+}
